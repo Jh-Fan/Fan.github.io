@@ -577,6 +577,9 @@ a:hover, a:active, a:focus {
   margin-left: -200px;
   margin-top: 150px;
 }
+.thumb{
+  margin-bottom: 100px;
+}
 #profile .intro{
   height: 15%;
   width: 100%;
@@ -588,7 +591,7 @@ a:hover, a:active, a:focus {
   vertical-align: middle;
 }
 #profile .intro span{
-  height: 55px;
+  height: 50px;
   font-size: 20px;
 }
 #about .education{
