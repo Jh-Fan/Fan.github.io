@@ -145,7 +145,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact {
-  text-align: center;
+
 }
 
 
@@ -219,9 +219,9 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .nav li a {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: normal;
-  color: #656565;
+  color: #999;
   letter-spacing: 1px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
@@ -563,4 +563,117 @@ a:hover, a:active, a:focus {
     height: 85px;
   }
 
+}
+#home{
+  background: url("../images/bg.jpg");
+}
+.container{
+  height: 100%;
+}
+#profile{
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 150px;
+}
+#profile .intro{
+  height: 13%;
+  width: 100%;
+  line-height: 55px;
+}
+#profile .intro img{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+#profile .intro span{
+  height: 50px;
+  font-size: 20px;
+}
+#about .education{
+  width: 100%;
+  font-size: 22px;
+  line-height: 40px;
+}
+.education span{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+#skill{
+
+}
+#skill .row{
+  padding-left: 15px;
+}
+#skill .it-exp{
+  list-style: url("../images/profile/arrow.png");
+}
+#skill .it-exp li{
+  font-size: 22px;
+  line-height: 40px;
+}
+#work .internship{
+  font-size: 22px;
+  list-style: url("../images/profile/arrow.png");
+}
+#work .internship span{
+  display: inline-block;
+  width: 30%;
+  line-height: 45px;
+  font-weight: 700;
+}
+#work .internship li{
+  line-height: 40px;
+}
+#work .project{
+  font-size: 22px;
+  list-style: url("../images/profile/arrow.png");
+}
+#work .project span{
+  display: inline-block;
+  width: 30%;
+  line-height: 45px;
+  font-weight: 700;
+}
+#work .project li{
+  line-height: 40px;
+}
+#contact{
+  font-size: 22px;
+  line-height: 40px;
+}
+
+#contact .icons{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#contact .icons li{
+  width: 50%;
+  float: left;
+}
+#contact .icons .csdn img{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+#contact .icons .github img{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+#contact .evaluation{
+  list-style: url("../images/profile/arrow.png");
+}
+#contact .evaluation li{
+  width: 50%;
+  line-height: 40px;
+  float: left;
+}
+#contact .copyright{
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
 }
